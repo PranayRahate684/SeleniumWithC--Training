@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "g/Uj+aGXW7Y=",
+  "success": true,
+  "projectFilePath": "C:\\AutomationWithC#\\AutomationSolution\\SeleniumChapt1\\SeleniumChapt1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\6124529\\.nuget\\packages\\selenium.support\\4.24.0\\selenium.support.4.24.0.nupkg.sha512",
+    "C:\\Users\\6124529\\.nuget\\packages\\selenium.webdriver\\4.24.0\\selenium.webdriver.4.24.0.nupkg.sha512"
+  ],
+  "logs": []
+}

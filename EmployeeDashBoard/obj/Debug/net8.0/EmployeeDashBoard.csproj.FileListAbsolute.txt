@@ -1,0 +1,14 @@
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\bin\Debug\net8.0\EmployeeDashBoard.exe
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\bin\Debug\net8.0\EmployeeDashBoard.deps.json
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\bin\Debug\net8.0\EmployeeDashBoard.runtimeconfig.json
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\bin\Debug\net8.0\EmployeeDashBoard.dll
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\bin\Debug\net8.0\EmployeeDashBoard.pdb
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.GeneratedMSBuildEditorConfig.editorconfig
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.AssemblyInfoInputs.cache
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.AssemblyInfo.cs
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.csproj.CoreCompileInputs.cache
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.dll
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\refint\EmployeeDashBoard.dll
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.pdb
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.genruntimeconfig.cache
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\ref\EmployeeDashBoard.dll

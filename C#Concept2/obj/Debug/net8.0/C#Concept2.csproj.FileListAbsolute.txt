@@ -1,0 +1,14 @@
+C:\AutomationWithC#\AutomationSolution\C#Concept2\bin\Debug\net8.0\C#Concept2.exe
+C:\AutomationWithC#\AutomationSolution\C#Concept2\bin\Debug\net8.0\C#Concept2.deps.json
+C:\AutomationWithC#\AutomationSolution\C#Concept2\bin\Debug\net8.0\C#Concept2.runtimeconfig.json
+C:\AutomationWithC#\AutomationSolution\C#Concept2\bin\Debug\net8.0\C#Concept2.dll
+C:\AutomationWithC#\AutomationSolution\C#Concept2\bin\Debug\net8.0\C#Concept2.pdb
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\C#Concept2.GeneratedMSBuildEditorConfig.editorconfig
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\C#Concept2.AssemblyInfoInputs.cache
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\C#Concept2.AssemblyInfo.cs
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\C#Concept2.csproj.CoreCompileInputs.cache
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\C#Concept2.dll
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\refint\C#Concept2.dll
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\C#Concept2.pdb
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\C#Concept2.genruntimeconfig.cache
+C:\AutomationWithC#\AutomationSolution\C#Concept2\obj\Debug\net8.0\ref\C#Concept2.dll
