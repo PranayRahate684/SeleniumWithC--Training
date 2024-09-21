@@ -10,7 +10,7 @@ namespace Assignment_SalesforceRegisterNewUser
 {
     internal class phpMyAdmin
     {
-        static void Mainw(string[] args)
+        static void Main(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -22,9 +22,9 @@ namespace Assignment_SalesforceRegisterNewUser
             driver.FindElement(By.Id("input_go")).Click();
             Thread.Sleep(1000);
        
-           IWebElement error= driver.FindElement(By.XPath("//div[@class='alert alert-danger']")); 
-            string mesg=error.Text;
-            Console.WriteLine( "Error Message========================"+mesg);
+           IWebElement error= driver.FindElement(By.Id("pma_errors")); 
+         
+            Console.WriteLine( "Error Message========================"+error.Text);
 
             driver.Quit();
         }

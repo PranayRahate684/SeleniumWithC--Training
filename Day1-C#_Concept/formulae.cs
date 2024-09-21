@@ -15,7 +15,11 @@ namespace Day1_C__Concept
         }
         public double AreaofTriangle(double bse, double height)
         {
-            return 0.5 * bse * height;
+            double d=2.2;
+            Console.WriteLine("AREA OF TRIANGLE : " + 0.5 * bse * height);
+            return d;
+           
+           
         }
 
     }

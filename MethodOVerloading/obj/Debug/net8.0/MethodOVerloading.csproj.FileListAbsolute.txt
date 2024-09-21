@@ -12,3 +12,4 @@ C:\AutomationWithC#\AutomationSolution\MethodOVerloading\obj\Debug\net8.0\refint
 C:\AutomationWithC#\AutomationSolution\MethodOVerloading\obj\Debug\net8.0\MethodOVerloading.pdb
 C:\AutomationWithC#\AutomationSolution\MethodOVerloading\obj\Debug\net8.0\MethodOVerloading.genruntimeconfig.cache
 C:\AutomationWithC#\AutomationSolution\MethodOVerloading\obj\Debug\net8.0\ref\MethodOVerloading.dll
+C:\AutomationWithC#\AutomationSolution\MethodOVerloading\obj\Debug\net8.0\MethodOVerloading.sourcelink.json

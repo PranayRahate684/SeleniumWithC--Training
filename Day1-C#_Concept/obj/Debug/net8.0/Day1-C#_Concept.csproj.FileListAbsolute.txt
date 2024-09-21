@@ -12,3 +12,4 @@ C:\AutomationWithC#\AutomationSolution\Day1-C#_Concept\obj\Debug\net8.0\refint\D
 C:\AutomationWithC#\AutomationSolution\Day1-C#_Concept\obj\Debug\net8.0\Day1-C#_Concept.pdb
 C:\AutomationWithC#\AutomationSolution\Day1-C#_Concept\obj\Debug\net8.0\Day1-C#_Concept.genruntimeconfig.cache
 C:\AutomationWithC#\AutomationSolution\Day1-C#_Concept\obj\Debug\net8.0\ref\Day1-C#_Concept.dll
+C:\AutomationWithC#\AutomationSolution\Day1-C#_Concept\obj\Debug\net8.0\Day1-C#_Concept.sourcelink.json

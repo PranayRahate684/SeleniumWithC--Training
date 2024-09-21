@@ -22,3 +22,4 @@ C:\AutomationWithC#\AutomationSolution\Assignment-SalesforceRegisterNewUser\obj\
 C:\AutomationWithC#\AutomationSolution\Assignment-SalesforceRegisterNewUser\obj\Debug\net8.0\Assignment-SalesforceRegisterNewUser.pdb
 C:\AutomationWithC#\AutomationSolution\Assignment-SalesforceRegisterNewUser\obj\Debug\net8.0\Assignment-SalesforceRegisterNewUser.genruntimeconfig.cache
 C:\AutomationWithC#\AutomationSolution\Assignment-SalesforceRegisterNewUser\obj\Debug\net8.0\ref\Assignment-SalesforceRegisterNewUser.dll
+C:\AutomationWithC#\AutomationSolution\Assignment-SalesforceRegisterNewUser\obj\Debug\net8.0\Assignment-SalesforceRegisterNewUser.sourcelink.json

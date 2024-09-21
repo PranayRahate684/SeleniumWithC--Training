@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumConcept2", "Seleniu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment-SalesforceRegisterNewUser", "Assignment-SalesforceRegisterNewUser\Assignment-SalesforceRegisterNewUser.csproj", "{404A271C-DE3E-4A96-9654-501347BA4335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOVerloading", "MethodOVerloading\MethodOVerloading.csproj", "{2134EEBB-4DAA-4085-A633-87FCE2495F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOVerloading", "MethodOVerloading\MethodOVerloading.csproj", "{2134EEBB-4DAA-4085-A633-87FCE2495F70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignMent2-19thSept24", "AssignMent2-19thSept24\AssignMent2-19thSept24.csproj", "{EA7D5D22-62F7-49FA-88D3-E83B009ABB58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumConcepts-20thSept-NUNITPROJ", "SeleniumConcepts-20thSept-NUNITPROJ\SeleniumConcepts-20thSept-NUNITPROJ.csproj", "{F0BFCF04-2377-4228-B105-273AADBAFE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3-Day5-20thSept", "Assignment3-Day5-20thSept\Assignment3-Day5-20thSept.csproj", "{5E435F1D-C0C7-48FE-BEAC-4B54E85B9EF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{2134EEBB-4DAA-4085-A633-87FCE2495F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2134EEBB-4DAA-4085-A633-87FCE2495F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2134EEBB-4DAA-4085-A633-87FCE2495F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7D5D22-62F7-49FA-88D3-E83B009ABB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7D5D22-62F7-49FA-88D3-E83B009ABB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7D5D22-62F7-49FA-88D3-E83B009ABB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7D5D22-62F7-49FA-88D3-E83B009ABB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BFCF04-2377-4228-B105-273AADBAFE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BFCF04-2377-4228-B105-273AADBAFE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BFCF04-2377-4228-B105-273AADBAFE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BFCF04-2377-4228-B105-273AADBAFE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E435F1D-C0C7-48FE-BEAC-4B54E85B9EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E435F1D-C0C7-48FE-BEAC-4B54E85B9EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E435F1D-C0C7-48FE-BEAC-4B54E85B9EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E435F1D-C0C7-48FE-BEAC-4B54E85B9EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

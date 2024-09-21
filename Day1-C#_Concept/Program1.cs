@@ -8,9 +8,14 @@ namespace Day1_C__Concept
 {
     public class Program1
     {
-        static void Main(String[] args) {
+        static void Main(String[] args)
+        {
+            Formuale f = new Formuale();
+            f.AreaofTriangle(123.23, 12);
 
-            String[] colors = ["red", "green", "yellow"];
-            Console.WriteLine(colors[0]);
+           Formuale.AreaofRectangle(23.43, 34.21);
+
         }
-    } }
+    }
+}
+

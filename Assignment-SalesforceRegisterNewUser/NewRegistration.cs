@@ -13,7 +13,7 @@ namespace Assignment_SalesforceRegisterNewUser
 {
     public class NewRegistration
     {
-        static void Main2(string[] args)
+        static void Main1(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -24,35 +24,38 @@ namespace Assignment_SalesforceRegisterNewUser
             driver.FindElement(By.Name("UserLastName")).SendKeys("wick"); //LASTNAME
             driver.FindElement(By.Name("UserEmail")).SendKeys("john@gmail.com"); // EMAIL
 
+            // Selecting Value from job Title Dropdown
             IWebElement jobTitle = driver.FindElement(By.Name("UserTitle"));
 
-            SelectElement designation = new SelectElement(jobTitle); // Selecting Value from job Title Dropdown
+            SelectElement designation = new SelectElement(jobTitle);
             designation.SelectByText("IT Manager");
 
             //Selecting Employees count from dropdown
-            IWebElement employees = driver.FindElement(By.Name("CompanyEmployees"));
-            SelectElement empcount = new SelectElement(employees);
+
+            SelectElement empcount = new SelectElement(driver.FindElement(By.Name("CompanyEmployees")));
             empcount.SelectByText("101 - 200 employees");
 
             //Selecting Country from dropdown using Javascript Executor
-            /*   IWebElement country = driver.FindElement(By.Name("CompanyCountry"));
-               SelectElement selectcountry = new SelectElement(country);
-               empcount.SelectByText("Iceland");
-   */
+            IWebElement country = driver.FindElement(By.XPath("//select[contains (@id,'CompanyCountry')]"));
+            SelectElement selectcountry = new SelectElement(country);
+            selectcountry.SelectByText("United Kingdom");
+
             driver.FindElement(By.Name("CompanyName")).SendKeys("TR");// COMPANY NAME
 
-            Thread.Sleep(1000);
-           
-            driver.FindElement(By.XPath("(//div[@class='checkbox-ui'])[2]")).Click();// Clicking on Checkbox
+       
+
+            // Clicking on Checkbox
+            driver.FindElement(By.XPath("(//div[@class='checkbox-ui'])[2]")).Click();//XPATH IS GROUPED WITH () in case of multiple elements with same attributes [2] 
 
             //START MY FREE TRIAL
 
-            Thread.Sleep(2000);
+
             driver.FindElement(By.Name("start my free trial")).Click();
-
+            Thread.Sleep(1000);
             //capture warning message of phone number field
-                  
-
+            string actualtext = "Enter a valid phone number";
+            IWebElement err=driver.FindElement(By.XPath("//span[contains(text(),\"Enter a valid phone\")]"));
+            Console.WriteLine(err.Text.Equals(actualtext));
 
             driver.Close();
 

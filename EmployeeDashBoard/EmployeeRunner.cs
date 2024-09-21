@@ -8,7 +8,7 @@ namespace EmployeeDashBoard
 {
     public class EmployeeRunner
     {
-        static void Mainc(String[] args)
+        static void Main(String[] args)
         {
 
             Employee.companyName = "TR";

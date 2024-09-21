@@ -19,3 +19,4 @@ C:\AutomationWithC#\AutomationSolution\SeleniumChapt1\obj\Debug\net8.0\refint\Se
 C:\AutomationWithC#\AutomationSolution\SeleniumChapt1\obj\Debug\net8.0\SeleniumChapt1.pdb
 C:\AutomationWithC#\AutomationSolution\SeleniumChapt1\obj\Debug\net8.0\SeleniumChapt1.genruntimeconfig.cache
 C:\AutomationWithC#\AutomationSolution\SeleniumChapt1\obj\Debug\net8.0\ref\SeleniumChapt1.dll
+C:\AutomationWithC#\AutomationSolution\SeleniumChapt1\obj\Debug\net8.0\SeleniumChapt1.sourcelink.json

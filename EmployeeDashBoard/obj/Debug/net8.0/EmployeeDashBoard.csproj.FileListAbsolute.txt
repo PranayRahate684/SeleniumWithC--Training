@@ -12,3 +12,4 @@ C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\refint
 C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.pdb
 C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.genruntimeconfig.cache
 C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\ref\EmployeeDashBoard.dll
+C:\AutomationWithC#\AutomationSolution\EmployeeDashBoard\obj\Debug\net8.0\EmployeeDashBoard.sourcelink.json

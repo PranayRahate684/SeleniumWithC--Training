@@ -8,10 +8,10 @@ namespace MethodOVerloading
 {
     public class main
     {
-        static void Main(string[] args)
-        {
-            Calci c = new Calci();
-            c.add(1,1,2);
+            static void Main(string[] args)
+            {
+               
+            }
         }
-    }
+   
 }

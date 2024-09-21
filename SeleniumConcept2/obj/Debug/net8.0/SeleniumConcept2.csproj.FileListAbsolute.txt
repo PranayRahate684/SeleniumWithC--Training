@@ -19,3 +19,4 @@ C:\AutomationWithC#\AutomationSolution\SeleniumConcept2\obj\Debug\net8.0\refint\
 C:\AutomationWithC#\AutomationSolution\SeleniumConcept2\obj\Debug\net8.0\SeleniumConcept2.pdb
 C:\AutomationWithC#\AutomationSolution\SeleniumConcept2\obj\Debug\net8.0\SeleniumConcept2.genruntimeconfig.cache
 C:\AutomationWithC#\AutomationSolution\SeleniumConcept2\obj\Debug\net8.0\ref\SeleniumConcept2.dll
+C:\AutomationWithC#\AutomationSolution\SeleniumConcept2\obj\Debug\net8.0\SeleniumConcept2.sourcelink.json
