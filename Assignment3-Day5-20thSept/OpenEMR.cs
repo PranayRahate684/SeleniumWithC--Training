@@ -12,7 +12,7 @@ namespace Assignment3_Day5_20thSept
     public class OpenEMRTEST
     {
         [Test]
-        public void Day5Ass()
+        public void Day5Assignment()
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
@@ -50,14 +50,14 @@ namespace Assignment3_Day5_20thSept
 
 
             //Entering First Name
-            driver.FindElement(By.Name("form_fname")).SendKeys("POC4");
+            driver.FindElement(By.Name("form_fname")).SendKeys("POC7");
 
             //Entering Last Name
-            driver.FindElement(By.Name("form_lname")).SendKeys("Subject4");
+            driver.FindElement(By.Name("form_lname")).SendKeys("Subject7");
 
             //Entering DOB
             IWebElement DOB =driver.FindElement(By.Id("form_DOB"));
-            DOB.SendKeys("2024-09-17");
+            DOB.SendKeys("2024-09-14");
 
             //Selecting Geneder
             SelectElement gender = new(driver.FindElement(By.Id("form_sex")));
@@ -74,21 +74,20 @@ namespace Assignment3_Day5_20thSept
 
             Console.WriteLine( "After switching to Parent Window : "+driver.Title);
 
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
             
             //Switching to Confirm New Patient frame
             driver.SwitchTo().Frame(driver.FindElement(By.XPath("//div/iframe[@id='modalframe']")));
 
             driver.FindElement(By.XPath("//button[contains(text(),'Confirm Create New Patient')]")).Click();
             //Explicit wait for alert to appear
-            //driver.SwitchTo().DefaultContent();
+            driver.SwitchTo().DefaultContent();
+            Thread.Sleep(5000);
 
-            WebDriverWait wait = new(driver,TimeSpan.FromSeconds(10));
-             
 
             //Get text of Alert Box and Accept 
-           //string alert= driver.SwitchTo().Alert().Text;
-           // Console.WriteLine("Alert Text : " + alert);
+            //string alert = driver.SwitchTo().Alert().Text;
+            //Console.WriteLine("Alert Text : " + alert);
             driver.SwitchTo().Alert().Accept();
 
             //Close Happy Birthday popup
@@ -96,10 +95,10 @@ namespace Assignment3_Day5_20thSept
             // driver.FindElement(By.XPath("//div[@class='closeDlgIframe']")).Click();
 
             // Getting User Name of Current User
-            Thread.Sleep(2000);
-            IWebElement UsrName = driver.FindElement(By.XPath("//*[@data-bind='text: pname()']"));
+            ////Thread.Sleep(2000);
+            ////IWebElement UsrName = driver.FindElement(By.XPath("//*[@data-bind='text: pname()']"));
 
-            Console.WriteLine(" User Name : " + UsrName.Text);
+            //Console.WriteLine(" User Name : " + UsrName.Text);
 
             //clicking on the user profile icon
 
