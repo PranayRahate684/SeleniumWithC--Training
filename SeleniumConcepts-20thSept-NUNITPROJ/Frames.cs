@@ -31,8 +31,6 @@ namespace SeleniumConcepts_20thSept_NUNITPROJ
             IWebElement pwd =driver.FindElement(By.XPath("//input[@id='keyboard']"));
             
 
-
-
             driver.SwitchTo().DefaultContent();
 
             driver.Close();
