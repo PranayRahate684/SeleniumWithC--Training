@@ -1,0 +1,6 @@
+C:\AutomationWithC#\AutomationSolution\SeleniumConcepts-Advance24thSept\obj\Debug\net8.0\SeleniumConcepts-Advance24thSept.csproj.AssemblyReference.cache
+C:\AutomationWithC#\AutomationSolution\SeleniumConcepts-Advance24thSept\obj\Debug\net8.0\SeleniumConcepts-Advance24thSept.GeneratedMSBuildEditorConfig.editorconfig
+C:\AutomationWithC#\AutomationSolution\SeleniumConcepts-Advance24thSept\obj\Debug\net8.0\SeleniumConcepts-Advance24thSept.AssemblyInfoInputs.cache
+C:\AutomationWithC#\AutomationSolution\SeleniumConcepts-Advance24thSept\obj\Debug\net8.0\SeleniumConcepts-Advance24thSept.AssemblyInfo.cs
+C:\AutomationWithC#\AutomationSolution\SeleniumConcepts-Advance24thSept\obj\Debug\net8.0\SeleniumConcepts-Advance24thSept.csproj.CoreCompileInputs.cache
+C:\AutomationWithC#\AutomationSolution\SeleniumConcepts-Advance24thSept\obj\Debug\net8.0\SeleniumConcepts-Advance24thSept.sourcelink.json

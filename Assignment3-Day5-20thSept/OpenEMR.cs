@@ -50,14 +50,14 @@ namespace Assignment3_Day5_20thSept
 
 
             //Entering First Name
-            driver.FindElement(By.Name("form_fname")).SendKeys("POC7");
+            driver.FindElement(By.Name("form_fname")).SendKeys("POC8");
 
             //Entering Last Name
-            driver.FindElement(By.Name("form_lname")).SendKeys("Subject7");
+            driver.FindElement(By.Name("form_lname")).SendKeys("Subject8");
 
             //Entering DOB
             IWebElement DOB =driver.FindElement(By.Id("form_DOB"));
-            DOB.SendKeys("2024-09-14");
+            DOB.SendKeys("2024-09-24");
 
             //Selecting Geneder
             SelectElement gender = new(driver.FindElement(By.Id("form_sex")));
@@ -80,7 +80,7 @@ namespace Assignment3_Day5_20thSept
             driver.SwitchTo().Frame(driver.FindElement(By.XPath("//div/iframe[@id='modalframe']")));
 
             driver.FindElement(By.XPath("//button[contains(text(),'Confirm Create New Patient')]")).Click();
-            //Explicit wait for alert to appear
+            //wait for alert to appear
             driver.SwitchTo().DefaultContent();
             Thread.Sleep(5000);
 
@@ -100,10 +100,10 @@ namespace Assignment3_Day5_20thSept
 
             //Console.WriteLine(" User Name : " + UsrName.Text);
 
-            //clicking on the user profile icon
+            //clicking on the user profile icon and selecting logout
 
-            SelectElement usrprofile = new SelectElement(driver.FindElement(By.XPath("//div[@title='Current user']")));
-            usrprofile.SelectByText(" Logout");
+            //SelectElement usrprofile = new SelectElement(driver.FindElement(By.XPath("//div[@title='Current user']")));
+            //usrprofile.SelectByText(" Logout");
 
             driver.Quit();
         }

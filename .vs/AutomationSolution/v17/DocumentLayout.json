@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\AutomationWithC#\\AutomationSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D9124E1-C3A8-40F1-98CE-816C01E7CE04}|SeleniumAdvance-24Sept\\SeleniumAdvance-24Sept.csproj|c:\\automationwithc#\\automationsolution\\seleniumadvance-24sept\\mousehower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9124E1-C3A8-40F1-98CE-816C01E7CE04}|SeleniumAdvance-24Sept\\SeleniumAdvance-24Sept.csproj|solutionrelative:seleniumadvance-24sept\\mousehower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9124E1-C3A8-40F1-98CE-816C01E7CE04}|SeleniumAdvance-24Sept\\SeleniumAdvance-24Sept.csproj|c:\\automationwithc#\\automationsolution\\seleniumadvance-24sept\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9124E1-C3A8-40F1-98CE-816C01E7CE04}|SeleniumAdvance-24Sept\\SeleniumAdvance-24Sept.csproj|solutionrelative:seleniumadvance-24sept\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E435F1D-C0C7-48FE-BEAC-4B54E85B9EF9}|Assignment3-Day5-20thSept\\Assignment3-Day5-20thSept.csproj|c:\\automationwithc#\\automationsolution\\assignment3-day5-20thsept\\openemr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E435F1D-C0C7-48FE-BEAC-4B54E85B9EF9}|Assignment3-Day5-20thSept\\Assignment3-Day5-20thSept.csproj|solutionrelative:assignment3-day5-20thsept\\openemr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MouseHower.cs",
+              "DocumentMoniker": "C:\\AutomationWithC#\\AutomationSolution\\SeleniumAdvance-24Sept\\MouseHower.cs",
+              "RelativeDocumentMoniker": "SeleniumAdvance-24Sept\\MouseHower.cs",
+              "ToolTip": "C:\\AutomationWithC#\\AutomationSolution\\SeleniumAdvance-24Sept\\MouseHower.cs",
+              "RelativeToolTip": "SeleniumAdvance-24Sept\\MouseHower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:28:39.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadFile.cs",
+              "DocumentMoniker": "C:\\AutomationWithC#\\AutomationSolution\\SeleniumAdvance-24Sept\\UploadFile.cs",
+              "RelativeDocumentMoniker": "SeleniumAdvance-24Sept\\UploadFile.cs",
+              "ToolTip": "C:\\AutomationWithC#\\AutomationSolution\\SeleniumAdvance-24Sept\\UploadFile.cs",
+              "RelativeToolTip": "SeleniumAdvance-24Sept\\UploadFile.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:15:10.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OpenEMR.cs",
               "DocumentMoniker": "C:\\AutomationWithC#\\AutomationSolution\\Assignment3-Day5-20thSept\\OpenEMR.cs",
               "RelativeDocumentMoniker": "Assignment3-Day5-20thSept\\OpenEMR.cs",
               "ToolTip": "C:\\AutomationWithC#\\AutomationSolution\\Assignment3-Day5-20thSept\\OpenEMR.cs",
               "RelativeToolTip": "Assignment3-Day5-20thSept\\OpenEMR.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwD0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAiwGYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T07:31:39.139Z",
               "EditorCaption": ""
