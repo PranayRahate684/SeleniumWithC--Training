@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Interactions;
 
 namespace Assignment3_Day5_20thSept
 {
@@ -50,14 +51,14 @@ namespace Assignment3_Day5_20thSept
 
 
             //Entering First Name
-            driver.FindElement(By.Name("form_fname")).SendKeys("POC8");
+            driver.FindElement(By.Name("form_fname")).SendKeys("POC10");
 
             //Entering Last Name
-            driver.FindElement(By.Name("form_lname")).SendKeys("Subject8");
+            driver.FindElement(By.Name("form_lname")).SendKeys("Subject10");
 
             //Entering DOB
             IWebElement DOB =driver.FindElement(By.Id("form_DOB"));
-            DOB.SendKeys("2024-09-24");
+            DOB.SendKeys("2024-09-26");
 
             //Selecting Geneder
             SelectElement gender = new(driver.FindElement(By.Id("form_sex")));
@@ -80,31 +81,33 @@ namespace Assignment3_Day5_20thSept
             driver.SwitchTo().Frame(driver.FindElement(By.XPath("//div/iframe[@id='modalframe']")));
 
             driver.FindElement(By.XPath("//button[contains(text(),'Confirm Create New Patient')]")).Click();
+
             //wait for alert to appear
             driver.SwitchTo().DefaultContent();
-            Thread.Sleep(5000);
+            Thread.Sleep(7000);
 
 
             //Get text of Alert Box and Accept 
-            //string alert = driver.SwitchTo().Alert().Text;
-            //Console.WriteLine("Alert Text : " + alert);
+            string alert = driver.SwitchTo().Alert().Text;
+            Console.WriteLine("Alert Text : " + alert);
             driver.SwitchTo().Alert().Accept();
 
             //Close Happy Birthday popup
-
-            // driver.FindElement(By.XPath("//div[@class='closeDlgIframe']")).Click();
+            Thread.Sleep(2000);
+            driver.FindElement(By.XPath("//div[@class='closeDlgIframe']")).Click();
 
             // Getting User Name of Current User
-            ////Thread.Sleep(2000);
-            ////IWebElement UsrName = driver.FindElement(By.XPath("//*[@data-bind='text: pname()']"));
+            Thread.Sleep(2000);
+            IWebElement UsrName = driver.FindElement(By.XPath("//*[@data-bind='text: pname()']"));
 
-            //Console.WriteLine(" User Name : " + UsrName.Text);
+            Console.WriteLine(" User Name : " + UsrName.Text);
 
             //clicking on the user profile icon and selecting logout
-
-            //SelectElement usrprofile = new SelectElement(driver.FindElement(By.XPath("//div[@title='Current user']")));
-            //usrprofile.SelectByText(" Logout");
-
+            Actions a=new Actions(driver);
+            a.MoveToElement(driver.FindElement(By.Id("user_icon"))).Perform();
+            driver.FindElement(By.XPath("//li[@data-bind='click: logout']")).Click();
+            //SelectElement usrprofile = new SelectElement(driver.FindElement(By.Id("user_icon")));
+           
             driver.Quit();
         }
     }

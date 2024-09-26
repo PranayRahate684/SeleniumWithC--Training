@@ -18,17 +18,17 @@ namespace EmployeeDashBoard
             Employee emp3 = new Employee(102);
 
 
-            emp.EmpId = 10;
+            emp.EmpId = 110;
             emp.empName = "Pranay";
             emp.EmpPerformance = "A";
             emp.empSalary = 102;
-            Employee.companyName = "TR \n";
+            Employee.companyName = "TR \n ==============";
 
-            emp1.EmpId = -111;
+            emp1.EmpId = 111;
             emp1.empName = "Sanay";
             emp1.EmpPerformance = "B";
             emp1.empSalary = 103;
-            Employee.companyName = "TR \n";
+            Employee.companyName = "TR \n ==============";
 
             emp3.EmpId = 122;
 

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace EmployeeDashBoard
 {
-    internal class Employee
+    public class Employee
     {
-        private int empid;
+        public int empid;
         public string empName;
-        private string empPerformance;
+        public string empPerformance;
         public double empSalary;
         public static string companyName;
 
@@ -36,7 +36,7 @@ namespace EmployeeDashBoard
             }
         }
 
-public string EmpPerformance
+        public string EmpPerformance
         {
             get
             {
